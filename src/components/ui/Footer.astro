@@ -1,0 +1,23 @@
+---
+import FooterBox from './FooterBox.astro';
+---
+<footer class="bg-coffee-900 p-20">
+    <div class="max-w-7xl mx-auto mt-10 grid grid-cols-1 lg:grid-cols-3 gap-5">
+        <FooterBox heading="Ubicacion">
+            <p>Calle Falsa 123</p>
+            <p>Londres, UK</p>
+        </FooterBox>
+
+        <FooterBox heading="Reservacion">
+            <p>Reservaciones al: <span class="text-coffee-400">+44 1234 567890</span></p>
+            <p>Correo: <span class="text-coffee-400">caff@e.com</span></p>
+        </FooterBox>
+
+        <FooterBox heading="Horario">
+            <p>Lunes a Viernes: 8:00 AM - 6:00 PM</p>
+            <p>Sábado: 9:00 AM - 5:00 PM</p>
+            <p>Domingo: Cerrado</p>
+        </FooterBox>
+    </div>
+    <p class="py-10 text-center text-white text-sm">Todos los derechos reservados. La cafeteria1939. &copy; { new Date().getFullYear() }</p>
+</footer>
