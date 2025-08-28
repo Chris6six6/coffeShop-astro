@@ -11,6 +11,12 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "astro": "^5.11.2",
+    "leaflet": "^1.9.4",
+    "notyf": "^3.10.0",
+    "photoswipe": "^5.4.4",
     "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.20"
   }
 }
